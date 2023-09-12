@@ -145,18 +145,3 @@ public class ServletBasic extends HttpServlet{
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
