@@ -20,7 +20,7 @@ public class SessionServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("로그아웃 요청이 들어옴!");
-		//특정 세션 데이트를 삭제하는 메서드
+		//특정 세션 데이터를 삭제하는 메서드
 //		request.getSession().removeAttribute("user_id");
 		
 		//모든 세션 데이터 삭제하는 법(세션 객체 자체를 무효화)
